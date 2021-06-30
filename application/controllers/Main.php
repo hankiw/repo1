@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Main extends PageLayout
+class Main extends MY_PageLayout
 {
 	public function index()
 	{

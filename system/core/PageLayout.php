@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class PageLayout extends CI_Controller
+class MY_PageLayout extends CI_Controller
 {
     private $assign_data = array();
 
