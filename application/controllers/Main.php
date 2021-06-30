@@ -8,4 +8,9 @@ class Main extends MY_PageLayout
 		$this->assign('test', 'hello ci');
         $this->layoutView('main_message');
 	}
+
+	public function test()
+	{
+		$this->layoutView('test');
+	}
 }
